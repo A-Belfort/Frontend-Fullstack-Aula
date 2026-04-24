@@ -32,4 +32,4 @@ async function criarCaderno() {
         console.error('Erro:', error);
         alert('Erro de conexão com o servidor');
     }
-}c
+}
