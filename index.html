@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caderneta Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Caderneta Online</h1>
+        <h4>Crie e edite cadernos de anotações</h4>
+    </div>
+    <div id="cadernolistavazia">
+        <p>Você ainda não criou um caderno. Comece agora!</p>
+        <label for="titulo">Título</label>
+        <input id="titulo">
+        <label for="descricao">Descrição</label>
+        <input id="descricao">
+        <button onclick="criarCaderno()">Criar caderno</button>    
+    </div>
+    <div id="quadro"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
